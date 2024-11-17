@@ -21,7 +21,8 @@ function App() {
       </h1>
       <section className="calendar">
         <InlineWidget
-          url="https://calendly.com/gerhard-bliedung/byod-24?hide_gdpr_banner=1"
+          //url="https://calendly.com/gerhard-bliedung/byod-24?hide_gdpr_banner=1"
+          url="https://calendly.com/baketothefuture/bring-your-own-dough-porta-il-tuo-impasto?month=2024-11?hide_gdpr_banner=1"
           pageSettings={{
             backgroundColor: "fff7d1",
             hideEventTypeDetails: false,
