@@ -1,9 +1,24 @@
 import { InlineWidget } from "react-calendly";
+import useFitText from "use-fit-text";
 
 function App() {
+  const { fontSize, ref } = useFitText({
+    maxFontSize: 1000,
+  });
   return (
     <main>
-      <h1 className="title">BYOD!</h1>
+      <h1
+        className="title"
+        ref={ref}
+        style={{
+          fontSize,
+          height: "auto",
+          width: "100%",
+          whiteSpace: "nowrap",
+        }}
+      >
+        BYOD!
+      </h1>
       <section className="calendar">
         <InlineWidget
           url="https://calendly.com/gerhard-bliedung/byod-24?hide_gdpr_banner=1"
