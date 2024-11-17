@@ -31,7 +31,7 @@ function App() {
             textColor: "8b5dff",
           }}
           styles={{
-            height: "1000px",
+            height: "1100px",
             padding: "0",
             margin: "0",
           }}
