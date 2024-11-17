@@ -83,6 +83,17 @@ main {
 .title {
   font-size: 10rem;
   text-align: center;
+  transition: font-variation-settings 0.5s;
+  animation: rise 6s;
+}
+
+@keyframes rise {
+  from {
+    font-variation-settings: "YEAR" 2050;
+  }
+  to {
+    font-variation-settings: "YEAR" 1979;
+  }
 }
 
 .branding {
